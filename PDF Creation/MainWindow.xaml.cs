@@ -1,17 +1,20 @@
-﻿using PetCareApp.Models;
-using PetCareApp.Services;
+﻿using PDF_Creation.Services;
 using QuestPDF.Infrastructure;
 using System;
 using System.Diagnostics;
 using System.IO;
 using System.Windows;
+using PDF_Creation.Models;
 
-namespace PetCareApp
+namespace PDF_CreationApp
 {
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
+            // Diese Methode wird von der automatisch generierten Datei MainWindow.g.i.cs bereitgestellt,
+            // die aus MainWindow.xaml erzeugt wird. Stelle sicher, dass MainWindow.xaml existiert
+            // und korrekt im Projekt eingebunden ist (Build-Aktion: "Page").
             InitializeComponent();
         }
 
@@ -29,7 +32,7 @@ namespace PetCareApp
                     Breed = "Beagle",
                     BirthDate = new DateTime(2018, 3, 14),
                     Owner = "Jasmin Hanke",
-                    PassNr = "Kein Pass da Ilegale Immigrantin",
+                    PassNr = "1234",
                     
                 };
 

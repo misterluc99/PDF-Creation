@@ -10,7 +10,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\Anni Christmas.jpg" />
+    <None Remove="images\Petcare Logo.png" />
+    <None Remove="images\petcarelogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="QuestPDF" Version="2025.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Anni Christmas.jpg" />
+    <Resource Include="images\Petcare Logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\petcarelogo.png" />
   </ItemGroup>
 
 </Project>

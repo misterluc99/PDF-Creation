@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PetCareApp.Models
+namespace PDF_Creation.Models
 {
     public class Animal
     {
