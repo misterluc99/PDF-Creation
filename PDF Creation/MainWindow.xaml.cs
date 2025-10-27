@@ -27,13 +27,15 @@ namespace PDF_CreationApp
                 // Beispiel-Daten – später durch deine echten Daten ersetzen
                 var animal = new Animal
                 {
-                    Name = "Anissa",
+                    Name = "Anissa von der Halben Welt",
                     Species = "Hund",
                     Breed = "Beagle",
                     BirthDate = new DateTime(2018, 3, 14),
+                    Weight = 12.5,
                     Owner = "Jasmin Hanke",
                     PassNr = "1234",
-                    
+                    Impfungen = "Tollwut, ..."
+
                 };
 
                 // PDF erzeugen
