@@ -20,11 +20,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="images\Anni Christmas.jpg" />
-    <Resource Include="images\Petcare Logo.png">
+    <Content Include="images\Anni Christmas.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="images\petcarelogo.png" />
+    </Content>
+    <Content Include="images\Petcare Logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\petcarelogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
